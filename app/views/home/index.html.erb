@@ -10,22 +10,16 @@
 
   </head>
   <body>
-    <a href="http://www.wku.ac.kr"><img id = "logo" type="button" src="/logo4.png" ></a>
-    <img id="cross" src="/cross.png">  <img id="lion" src="/lion.png"></br>
-    
-    <span id="homepage">학교 홈페이지</span>
-    <span id="babo">이명아 나혜진</span>
-    
   <div id="all">
   <nav id="nav">
-    <div class="row">
-      <div class="col-md-4 col-xs-2 col-sm-2"></div>
-      <div class="col-md-1 col-xs-2 col-sm-2"><a href="/home/index" id="name"> <i class="fa fa-twitch fa-1x" > 이름</i> </a></div>
-      <div class="col-md-2 col-xs-3 col-sm-4"><a href="/home/index/2"id = "sname"><i class="fa fa-table fa-1x">  과목 </i> </a></div>
-      <div class="col-md-1 col-xs-2 col-sm-2"><a href="/home/index/3"id="snumber"><i class="fa fa-sort-numeric-desc fa-1x"> 학수번호</i> </a></div>
-      <div class="col-md-3 col-xs-2 col-sm-2"></div>
-    </div>
-  </nav>
+      <div class="row">
+        <div class="col-md-4 col-xs-2 col-sm-2"></div>
+        <div class="col-md-1 col-xs-2 col-sm-2"><a href="/home/index" id="name"> <i class="fa fa-twitch fa-1x"> 이름</i> </a></div>
+        <div class="col-md-2 col-xs-3 col-sm-4"><a href="/home/index/2"id = "sname"><i class="fa fa-table fa-1x">  과목 </i> </a></div>
+        <div class="col-md-1 col-xs-2 col-sm-2"><a href="/home/index/3"id="snumber"><i class="fa fa-sort-numeric-desc fa-1x"> 학수번호</i> </a></div>
+        <div class="col-md-3 col-xs-2 col-sm-2"></div>
+      </div>
+    </nav>
   <div class="row">
     <div class="col-md-4 col-xs-2 col-sm-2"></div>
     <div class="col-md-1 col-xs-2 col-sm-2"><div id="tri"></div></div>
@@ -70,23 +64,7 @@ if($("#main").is(":hidden")){
     
 	    $(this).not("#name").css("opacity","0.5");
   }); 
- $("#logo").mouseenter(function(){
-    
-	    $("#homepage").css("opacity","1.0");
-
-  });
-  $("#logo").mouseleave(function(){
-    
-	    $("#homepage").css("opacity","0.0");
-
-  });
-  $("#lion").mouseenter(function(){
-    $("#babo").css("opacity","1.0");
-  });
-  $("#lion").mouseleave(function(){
-    $("#babo").css("opacity","0.0");
-  });
-  
+ 
 
   </script>
   </body>

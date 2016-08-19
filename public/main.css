@@ -10,7 +10,7 @@
 		min-width:100%;
 		min-height:100%;
 		color: #777777;
-        font-family: 'Hanna', sans-serif;
+        font-family: 'Nanum Gothic', sans-serif;
         font-weight: 700;
 }
 	body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -25,39 +25,54 @@
 		}
 	
 	#cross{
-		margin-top: 20px;
-		margin-left: 15px;
-		height: 30px;
+		width: 20px;
+    position: absolute;
+    text-align: right;
+    top:50px;
+    margin-left: 75px;
 	}
 	#lion{
-		margin-top:20px;
-		height: 55px;
+		 width: 50px;
+    position: absolute;
+    text-align: right;
+    top:40px;
+    margin-left: 10px;
 	}
 
     input[type=submit]{
        
     }
     #all{
-    	margin-top: 20px;
+    	margin-top: 200px;
     }
    a #logo{
-   	margin-top: 20px;
-   	margin-left: 20px;
-   	opacity:1.0;
-   	height: 60px;
+    width: 52px;
+    position: absolute;
+    text-align: right;
+    top:40px;
+    margin-left: 110px;
    }
   
   #homepage{
   	color:#ffffff;
+  	 width: 70px;
+  	 font-size: 10px;
+    position: absolute;
+    text-align: center;
+    top:95px;
+    margin-left: 95px;
   	opacity: 0.0;
-  	margin-top: 15px;
-  	margin-left: 8px;
+
   }
   #babo{
   	color:#ffffff;
   	opacity: 0.0;
-  	margin-top: 15px;
-  	margin-left: 35px;
+  	 width: 70px;
+  	 font-size: 10px;
+    position: absolute;
+    text-align: center;
+    top:95px;
+    margin-left: 3px;
   }
     .row a{
     	
@@ -169,14 +184,14 @@
 		}
 				
 	#copyright{
-	   
-	    font-family: 'Hanna', sans-serif;
+	   padding-top: 70px;
+	    font-family: 'Nanum Gothic', sans-serif;
 	    text-align: center;
 	    font-size: 13px;
 		width: 100%;
 		padding-bottom:20px;
-		color:#ffffff;
-		position: relative;
+		color:#fff;
+		position: fixed;
 		bottom: 0;
 	}
 		
